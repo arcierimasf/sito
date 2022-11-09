@@ -104,7 +104,7 @@ div, section, span, ul, li, a, header {
   position: relative;
 }
 
-.titolo2 {
+.titolo2, .titolo3 {
   font-size: 42px;
   font-family: 'DM Serif Text', serif;
   position: absolute;
@@ -315,7 +315,7 @@ background-position: 25% 75%;
 
 div {
   margin-right: 0px;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 .logopiccolo {
@@ -367,15 +367,15 @@ div {
 
 #società {
   width: 100%;
-  height: 196vh;
+  height: 160vh;
 }
 
-.titolo2 {
-  font-size: 30px;
+.titolo2{
+  font-size: 30px !important;
   float: none !important;
-  margin-right: 10px;
-  margin-left: 0px;
-  text-align: center;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  text-align: center !important;
 }
 
 nav {
@@ -383,36 +383,61 @@ nav {
   margin: 0px;
   padding-top: 100px !important;
   text-align: center;
-  padding-left: 0px !important;
+  padding-left: 3px !important;
+  padding-bottom: 0px;
 }
 
 nav ul li a {
-  font-size: 15px;
+  font-size: 16px;
   padding: 5px;
 }
 
 .p25top {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .foto {
-  height: 100px;
-  width: 100px;
+  height: 280px;
+  width: 280px;
   float: none !important;
-  margin-right: 0px;
+  margin: 10px 40px !important;
   padding-top: 0px !important;
 }
 
 .testo {
-  padding: 90px 40px 0px;
+  padding: 0px 40px 0px;
   margin-left: 0px !important;
   width: 100%;
   float: none !important;
   text-align: justify;
+  margin-top: 0px;
 }
 
 p {
   font-size: 15px;
+}
+
+span{
+  font-size: 17px;
+}
+
+/*css ALLENAMENTI RESPONSIVE*/
+
+#attività{
+  width: 100%;
+  height: 175vh;
+}
+
+.titolo3 {
+  font-size: 35px !important;
+  float: none !important;
+  margin-right: 0px !important;
+  margin-left: 13px !important;
+  text-align: center !important;
+  }
+
+#p-20top {
+  margin-top: -10px;
 }
 
 }
