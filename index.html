@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Acieri M.A.Sf.</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8f428a10d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa-solid fa-xmark" id="icon" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">SOCIETà</a></li>
+					<li><a href="">ATTIVITà</a></li>
+					<li><a href="">GARE</a></li>
+					<li><a href="">CONTATTI</a></li>
+				</ul>
+			</div>
+			<i class="fa-solid fa-bars" id="icon" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>A.s.d. Compagnia Arcieri Muzio Attendolo Sforza</h1>
+			<p>Sito ufficiale degli arcieri di Cotignola.</p>
+		</div>
+	</section>
+	<!------Società------->
+	<section class="società">
+		<h2>Storia della società</h2>
+		<div class="row">
+			<div class="società-col">
+				<img src="img/storia1.jpg">
+					<p class="p3">La nostra società di tiro con l’arco<br/>nasce sul finire degli anni Sessanta<br/>dalla passione di alcuni cotignolesi<br/>per questo sport.<br/>Tra i soci fondatori, vogliamo ricordare Pietro Baldassarri, Prof. Luciano Bassi e Giovanni Ballardini.</p>
+			</div>
+			<div class="società-col">
+				<img src="img/stella.jpg">
+					<p class="p3">Siamo stati i primi in Romagna, i secondi in Regione e i tredicesimi in Italia ad aderire alla Federazione Italiana di Tiro con l’Arco (FITARCO) e da allora abbiamo raggiunto molteplici traguardi, tra cui la Stella di Bronzo al Merito Sportivo per l'anno 2020.</p>
+			</div>
+			<div class="società-col">
+				<img src="img/soci.jpg">
+					<p class="p3">Lo spirito che contribuì alla nascita di questa Compagnia continua inalterato nel tempo, grazie alla volontà e alla tenacia dei suoi soci, che continuano a dedicarsi alla pratica del tiro con l’arco e a partecipare alle gare per promuovere e diffondere questa attività sportiva.</p>
+			</div>
+		</div>
+	</section>
+	<!------Attività------->
+	<section class="attività">
+		<h2>Attività e allenamenti</h2>
+		<p class="p2">La nostra società istruisce alla pratica del tiro con l’arco adulti e ragazzi a partire dai 10 anni. Le attività sono gestite da tre istruttori qualificati FITARCO e l’attrezzatura per il primo periodo d'apprendimento è fornita da noi.</p>
+		<div class="row">
+			<div class="attività-col" id="col1">
+				<h3>STAGIONE INVERNALE</h3>
+				<p class="p3">
+					Da ottobre a marzo, abbiamo a disposizione la palestra G. Gordini, presso la Scuola Primaria Angeli del Senio di Cotignola.<br/>In questo periodo, gli allenamenti si svolgono <b>martedì, giovedì e venerdì dalle ore 20.30 alle ore 22.30</b>.
+				</p>
+			</div>
+			<div class="attività-col" id="col2">
+				<h3>STAGIONE ESTIVA</h3>
+				<p class="p3">
+					Da aprile a settembre, ci trovate, invece, presso il nostro campo di tiro a Cotignola. La struttura è attrezzata con diversi paglioni che coprono tutte le distanze, fino ai 90 metri, e l’accesso è riservato ai soli soci. Gli istruttori, sono generalmente presenti <b>il martedì e il giovedì dalle 20:00 alle 22:00 e al pomeriggio (secondo orari accordati con gli atleti)</b>.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!------Javascript for Toggle Menu------>
+	<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu (){
+		navLinks.style.right = "0";
+	}
+	function hideMenu (){
+		navLinks.style.right = "-200px";
+	}
+	</script>
+</body>
+</html>
