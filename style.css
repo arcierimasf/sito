@@ -163,17 +163,17 @@ b{
 	text-align: center;
 	font-weight: 300;
 	line-height: 22px;
-	margin-top: 2px;
+	margin-top: 5px;
 	box-sizing: border-box;
 	background: #fffae6;
 	border-radius: 10px;
-	padding: 5px;
+	padding: 15px;
 }
 
 
 @media(max-width: 700px){
 	.text-box h1{
-	font-size: 22px;
+	font-size: 35px;
 	}
 	
 	.text-box p{
