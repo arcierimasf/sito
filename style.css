@@ -46,11 +46,11 @@ nav img{
 }
 
 .nav-links ul li a{
-	color: #ffeb99;
 	text-decoration: none;
 	font-size: 13px;
-	text-transform: uppercase;
 	background-color: transparent !important;
+	text-transform: uppercase;
+	color: #ffd359;
 }
 
 .nav-links ul li::after{
@@ -163,7 +163,7 @@ b{
 	width: 80%;
 	margin: auto;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 .società-col{
@@ -174,7 +174,6 @@ b{
 
 .società-col img{
 	width: 100%;
-	border-radius: 10px;
 }
 
 .società-col p{
