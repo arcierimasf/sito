@@ -18,50 +18,65 @@ html {
 	position: relative;
 }
 
-nav{
-	display: flex;
-	padding: 2% 6%;
+.nav {
+  	overflow: hidden;
+  	background-color: #7094db !important;
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	padding: 0.1% 2%;
 	justify-content: space-between;
 	align-items: center;
-	background-color: transparent !important;
+	vertical-align: middle !important;
+	z-index: 3;
+	display: flex;
 }
 
-nav img{
-	width: 250px;
-	background-color: transparent !important;
-}
-	
-.nav-links{
-	flex: 1;
-	text-align: right;
-	background-color: transparent !important;
-}
-
-.nav-links ul{
-	background-color: transparent !important;
-}
-
-.nav-links ul li{
-	list-style: none;
-	display: inline-block;
-	padding: 8px 12px;
-	position: relative;
-	background-color: transparent !important;
-}
-
-.nav-links ul li a{
-	text-decoration: none;
+.nav ul li a {
+  	display: block;
+  	text-decoration: none;
 	font-size: 13px;
 	background-color: transparent !important;
 	text-transform: uppercase;
 	color: #ffd359;
 }
 
+.alink{
+	background-color: transparent !important;
+}
+
+.nav img{
+	width: 190px;
+	background-color: transparent !important;
+}
+	
+.nav-links{
+	flex: 1;
+	text-align: center;
+	background-color: transparent !important;
+	display: inline;
+	z-index: 5;
+}
+
+.nav-links ul{
+	background-color: transparent !important;
+	position: fixed;
+	right: 2%;
+	top: 5%;
+}
+
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	background-color: transparent !important;
+}
+
 .nav-links ul li::after{
 	content: '';
 	width: 0%;
 	height: 2px;
-	background: #5c85d6;
+	background: #ccddff;
 	display: block;
 	margin: auto;
 	transition: 0.5s;
@@ -80,6 +95,7 @@ nav img{
 	transform: translate(-50%,-50%);
 	text-align: center;
 	background-color: transparent !important;
+	z-index: 1;
 }
 
 .text-box h1{
@@ -95,17 +111,17 @@ nav img{
 	background-color: transparent !important;
 }
 
-nav #icon{
+.nav #icon, .nav #icon2{
 	display: none;
 	background-color: transparent !important;
 }
 
 /*------Attività------*/
-.attività{
+.attività2{
 	width: 80%;
 	margin: auto;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 80px;
 }
 
 h2 {
@@ -143,7 +159,7 @@ h3 {
 }
 
 .row{
-	margin-top: 5%;
+	margin-top: 1%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -163,11 +179,11 @@ b{
 }
 
 /*------Società------*/
-.società{
+.società2{
 	width: 80%;
 	margin: auto;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 90px;
 }
 
 .società-col{
@@ -204,43 +220,61 @@ b{
 
 	.nav-links ul li{
 	display: block;
+	z-index: 7 !important;
+}
+
+.nav-links ul {
+	position: relative !important;
+	z-index: 7 !important;
 }
 
 .nav-links{
-	position: absolute;
+	position: fixed;
 	background: #5c85d6 !important;
 	height: 100vh;
 	width: 200px;
 	top: 0;
 	right: -200px;
 	text-align: left;
-	z-index: 2;
 	transition: 1s;
+	z-index: 7 !important;
 }
 
-nav #icon{
+.nav #icon2{
 	display: block;
 	color: white;
-	margin: 10px;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.nav #icon{
+	display: inline-block;
+	color: white;
+	margin: 18px; 
 	font-size: 30px;
 	cursor: pointer; 
 }
 
 .nav-links ul{
-	padding: 30px;
+	padding: 20px;
+	z-index: 7 !important;
 }
 
 .nav-links ul li a{
-	font-size: 16px;
+	font-size: 17px;
+	z-index: 7 !important;
 }
 
-nav img{
-	width: 180px;
+.nav img{
+	width: 160px;
 	margin-top: 9px;
 }
 
-.attività, .società{
-	padding-top: 30px;
+.nav-links ul li::after{
+	background: transparent !important;
 }
 
 .row{
