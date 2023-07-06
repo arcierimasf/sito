@@ -178,6 +178,47 @@ b{
 	background-color: transparent !important;
 }
 
+/*------Contatti------*/
+.contatti2{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.row{
+	margin-top: 1%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contatti-col{
+	flex-basis: 70%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	box-sizing: border-box;
+}
+
+iframe{
+	height: 120%;
+	width: 95%;
+}
+
+b{
+	text-decoration: underline;
+	background-color: transparent !important;
+}
+
+.link-esterno {
+	color: #005ce6;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.link-esterno:hover{
+	text-decoration: underline;
+}
+
 /*------Società------*/
 .società2{
 	width: 80%;
@@ -207,6 +248,57 @@ b{
 	border-radius: 10px;
 	padding: 15px;
 }
+
+.società2{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.società-col{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+}
+
+.società-col img{
+	width: 100%;
+}
+
+.società-col p{
+	padding: 0;
+	text-align: center;
+	font-weight: 300;
+	line-height: 22px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	background: #99bbff;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+/*GARE
+.gare2{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.gallery{
+	width: 900px;
+	display: flex;
+}
+
+.gallery div {
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	padding: 10px;
+}*/
+
 
 
 @media(max-width: 700px){
@@ -292,6 +384,5 @@ h2{
 .p3{
 	font-size: 14px;
 }
-
 
 }
