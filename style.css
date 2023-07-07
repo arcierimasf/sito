@@ -129,6 +129,10 @@ h2 {
 	font-weight: 600;
 	text-shadow: 1px 2px #660000;
 	color: #cc0000;
+	margin: 0.1% auto;
+	text-align: center !important;
+	align-items: center !important;
+	display: inline;
 }
 
 .p2{
@@ -224,7 +228,7 @@ b{
 	width: 80%;
 	margin: auto;
 	text-align: center;
-	padding-top: 90px;
+	padding-top: 80px;
 }
 
 .società-col{
@@ -278,27 +282,66 @@ b{
 	padding: 15px;
 }
 
-/*GARE
+/*-------GARE--------*/
 .gare2{
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	text-align: center;
-	padding-top: 90px;
+	padding-top: 80px;
 }
 
-.gallery{
-	width: 900px;
-	display: flex;
+.mySlides {
+	display: none;
 }
 
-.gallery div {
+.gare-col img {
 	width: 100%;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-gap: 20px;
-	padding: 10px;
-}*/
+}
 
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: 0.3% auto;
+  width: 68%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}
+
+.row{
+	margin-top: 1%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gare-col{
+	flex-basis: 80%;
+	margin-bottom: 5%;
+	box-sizing: border-box;
+}
 
 
 @media(max-width: 700px){
@@ -383,6 +426,10 @@ h2{
 
 .p3{
 	font-size: 14px;
+}
+
+.slideshow-container {
+	width: 90%;
 }
 
 }
