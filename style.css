@@ -341,7 +341,38 @@ background-color: transparent !important;
 	box-sizing: border-box;
 }
 
+/*-----footer----*/
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 55px 0 5px;
+}
 
+.footer h4{
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-weight: 600;
+	color: #4775d1;
+}
+
+.p1, h4{
+	font-size: 11px;
+}
+
+.p1{
+	color: #7094db;
+}
+
+.icons .fa{
+	color: #4775d1;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+
+.icons .fa:hover{
+	color: #ffd359;
+}
 
 
 @media(max-width: 700px){
